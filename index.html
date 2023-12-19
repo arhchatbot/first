@@ -1,29 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Метрика</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body> 
+  <header class="header">
+    <div class="container-header">
+      <img 
+          class="logo"
+          src="/resourses/Метрика.png" 
+          alt="Логотип компании Метрика"/>
+      <nav class="nav">
+        <a class="nav__link" href="">О НАС</a>
+        <a class="nav__link" href="">ПРОЕКТЫ</a>
+        <a class="nav__link" href="">УСЛУГИ</a>
+        <a class="nav__link" href="">КОНТАКТЫ</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container-hero">
+        <h1 class="hero__title">Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="hero__box">
+          <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+        </div>
+      </div>
+    </section> 
+    <section class="about">
+      <div class="container-about">
+        <h2 class="about__title">О НАС</h2> 
+        <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+        <a class="about__btn">Посмотреть услуги</a>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container-projects">
+        <h2 class="projects-title">ПРОЕКТЫ</h2>
+        <ul class="projects">
+          <li class="project">
+            <img class="project__image__first" src="resourses/interior_hall.jpg" alt="интерьер зала">
+            <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+            <a class="project__link" href="#">Подробнее →</a>
+          </li>
+          <li class="project">
+            <img class="project__image" src="resourses/interior_hall_2.jpg" alt="интерьер зала с окном">
+            <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+            <a class="project__link" href="#">Подробнее →</a>
+          </li>
+          <li class="project">
+            <img class="project__image" src="resourses/dining_room.jpg" alt="столовая">
+            <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+            <a class="project__link" href="#">Подробнее →</a>
+          </li>
+        </ul>
+        <a class="fullbtn" href="#">Смотреть все проекты</a>
+      </div> 
+    </section>
+    <section class="services">
+      <div class="container-services">
+        <h3 class="services__title">Услуги</h3>
+        <ul class="services-all">
+          <li class="service">
+            <img class="service__image_first" src="services/planning_solution.png" alt="Планировочное решение">
+            <h3 class="service__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+          </li>
+          <li class="service">
+            <img class="service__image" src="services/design_project.png" alt="Дизайн-проект">
+            <h3 class="service__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+          </li>
+          <li class="service">
+            <img class="service__image" src="services/author's_supervision.png" alt="Авторский надзор">
+            <h3 class="service__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+          </li>
+          <li class="service">
+            <img class="service__image" src="services/equipment.png" alt="Комплектация">
+            <h3 class="service__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-<h1 class="title">Первый заголовок</h1>
-
-<a href="https://ya.ru/">Ссылка</a>
-
-<img src="./images/nature.jpeg" alt="text">
-
-<input type="text">
-<br>
-<div>
-    <input type="checkbox">
-</div>
-
-<br>
-
-<button>Нажми меня</button>
-
-<div class="output"></div>
-<script src="index.js"></script>
-</body>
-</html>
+ 

@@ -1,0 +1,249 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.container-hero {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1430px;
+  padding: 0 15px 150px 15px;
+  background: #FFF;
+}
+
+.container-header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1430px;
+  padding: 33px 125px 74px 125px;
+  background: #FFF;
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 576px;  
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
+
+.hero__title {
+  width: 956px;
+  margin-left: 110px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; 
+  letter-spacing: -1.8px;
+}
+
+.hero__box {
+  position: relative;
+  margin: 30px 110px 0 110px;
+  height: 500px;
+  background-image: url('../resourses/interior.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  height: 81px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #FFFFFF;
+}
+
+.container-about {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1430px;
+  padding: 0 15px 150px 15px;
+  background: #FFF;
+}
+
+.about__title {
+  margin-left: 110px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212; 
+}
+
+.about__text {
+  margin-top: 30px;
+  margin-left: 110px;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  color: #121212;
+}
+
+.about__btn {
+  margin-top: 30px;
+  margin-left: 110px;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  background: #AD1818;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.container-projects {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1430px;
+  padding: 0 15px 150px 15px;
+  background: #FFF;
+}
+
+.projects-title {
+  margin-left: 110px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+
+.project__image {
+  margin: 90px 110px 15px 110px;
+}
+
+.project__image__first {
+  margin: 30px 110px 15px 110px;
+}
+
+
+.project__title {
+  margin-left: 110px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #121212;
+}
+
+.project__link {
+  margin-left: 110px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+  color:#AD1818;
+}
+
+
+.fullbtn {
+  margin-top: 90px;
+  margin-left: 110px;
+  display: block;
+  width: 1150px;
+  height: 153px;
+  line-height: 153px;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #AD1818;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+
+.fullbtn:hover {
+  color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #AD1818;
+  background: #AD1818;
+}
+
+
+.container-services {
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 1844px;
+  flex-shrink: 0;
+  max-width: 1430px;
+  padding: 150px 15px;
+  background: #121212;
+}
+
+.services__title {
+  margin-left: 110px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+.service__image {
+  margin: 60px 110px 15px 110px;
+}
+
+.service__image_first {
+  margin: 34px 110px 15px 110px;
+}
+
+
+.service__title {
+  margin-left: 115px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #FFFFFF;
+}
+
+
+
+
